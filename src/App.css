@@ -7,26 +7,29 @@ main{
     width: 50%;
     height: 100vh;
     float: left;
-    background: rgb(255, 129, 192);
+    background: url(./assets/trabalho.webp);
+    background-position-x: 60%;
+    background-position-y: 10%;
+    background-size: cover;
 }
 #dir{
     width: 50%;
     height: 100vh;
     float: left;
-    background: rgb(178, 255, 195);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 h1{
-    width: 80%;
+    width: 60%;
     margin-left: 35%;
     margin-top: 10%;
+    margin-bottom: 20px;
 }
 p{
     width: 60%;
-    margin-top: 15%;
+    margin-top: 10%;
     margin-left: 20%;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
@@ -37,15 +40,27 @@ label{
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 input{
+    padding: 10px;
+    height: 6vh;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
     width: 50%;
-    height: 5vh;
-    border-radius: 5%;
-    margin-top: 5%;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 button{
-    width: 50%;
-    height: 5vh;
-    border-radius: 10%;
-    margin-top: 5%;
+  background: #1a73e8;
+  margin-top: 10%;
+  color: white;
+  padding: 15px;
+  width: 50%;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.esqueceu{
+    width: 60%;
+    margin-top: 10%;
     margin-left: 20%;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
